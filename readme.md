@@ -1,3 +1,7 @@
+# **IMPORTANT NOTICE**
+
+The Xoverse, Evil Buddy, Akii, or the Xoverse's member are **NOT** responsible for any damage dealt to any machine.
+
 # VOID
 
 by XOVERSE
