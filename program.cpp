@@ -42,6 +42,6 @@ void main(array<String^>^ args)
 		RegistryKey^ rk = Registry::CurrentUser->OpenSubKey(
 			"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
 
-		rk->SetValue("CHARA IS HERE", "C:\\VOID.exe");
+		rk->SetValue("CHARA IS HERE", "C:\\VOID.exe -v");
 	}
 }
