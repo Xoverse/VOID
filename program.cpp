@@ -21,14 +21,6 @@ void main(array<String^>^ args)
 		}
 	}
 
-	for each (String ^ i in args)
-	{
-		if (i == "-v" || i == "--virus")
-		{
-			virus = true;
-		}
-	}
-
 	if (virus == true)
 	{
 		Application::EnableVisualStyles();
